@@ -9,6 +9,11 @@ function containsTypo(comment: string): boolean {
 }
 
 export = (app: Probot) => {
+  app.onAny(async (context) => {
+    // Code was pushed to the repo, what should we do with it?
+    app.log.info(context);
+  });
+
   app.on("pull_request_review_comment", async (context) => {
     if (
       context.payload.action === "created" &&
