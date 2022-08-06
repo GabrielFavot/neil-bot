@@ -1,6 +1,6 @@
 # neil-bot
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that Correct typo of Neil 
+> A GitHub App built with [Probot](https://github.com/probot/probot) that Correct typo of @noook
 
 ## Setup
 
