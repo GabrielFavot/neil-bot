@@ -2,7 +2,7 @@ import { Probot } from "probot";
 
 const typoList = ["niel", "nil", "nile"]; // TO COMPLET BY NEIL
 
-const waringMessage = "IT'S *NEIL*";
+const waringMessage = "IT'S *NAIL*";
 
 function containsTypo(comment: string): boolean {
   return typoList.some((typo) => comment.includes(typo));
