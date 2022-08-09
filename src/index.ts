@@ -1,7 +1,6 @@
 import { Probot } from 'probot';
 
-// TODO COMPLET BY NEIL
-const typoList = ['niel', 'nil', 'nile']; 
+const typoList = ['niel', 'nil', 'nile', 'neal', 'nils', 'nail'];
 
 const warningMessage = "IT'S **NEIL**!!!  😡";
 
